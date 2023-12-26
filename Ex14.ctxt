@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Ex14
+comment0.text=\r\n\ This\ is\ maman\ 14\ \r\n\r\n\ @author\ itay\ lior\r\n\ @version\ (27/05/2022)\r\n
+comment1.params=m\ val
+comment1.target=boolean\ findValWhat(int[][],\ int)
+comment1.text=\r\n\ This\ is\ the\ answer\ for\ question\ 1,\ section\ b,\ part\ 1\r\n\ @param\ int\ [][]\ m\ -\ array\ \r\n\ @param\ int\ val\ -\ the\ value\ you\ search\r\n\ @return\ true\ if\ the\ value\ is\ in\ the\ array\ with\ o(n)\ efficiency\ \r\n
+comment2.params=m\ val
+comment2.target=boolean\ findValTest(int[][],\ int)
+comment2.text=\r\n\ This\ is\ the\ answer\ for\ question\ 1,\ section\ b,\ part\ 2\r\n\ @param\ int\ [][]\ m\ -\ array\ \r\n\ @param\ int\ val\ -\ the\ value\ you\ search\r\n\ @return\ true\ if\ the\ value\ is\ in\ the\ array\ with\ o(n)\ efficiency\ \r\n
+comment3.params=a
+comment3.target=int\ strictlyIncreasing(int[])
+comment3.text=\r\n\ This\ is\ the\ answer\ for\ question\ 2\r\n\ @param\ int[]a\ -\ array\ \r\n\ efficiency\ is\ (o(n))\r\n\ because\ when\ we\ use\ the\ length\ of\ a\ subarray\ we\ can\ run\ threw\ the\ array\ with\ and\ effienciy\ of\ o(n)\r\n\ we\ count\ the\ length\ of\ the\ subarray\ and\ then\ we\ update\ the\ count\ depending\ how\ many\ characters\ are\ in\ the\ subarray\r\n\ because\ in\ a\ subbaray\ of\ 1,2,4\ there\ are\ 2\ sub\ arrays\ (1,2)\ and\ (1,2,4)\r\n\ so\ ((3-1)*2)\ /\ 2\ equals\ 2\ which\ is\ the\ numbers\ of\ subarrays\ that\ can\ fit\ \r\n\ that\ way\ we\ only\ go\ over\ the\ array\ n\ length\ of\ time\ \r\n\ @return\ -\ the\ number\ of\ subarrays\ that\ are\ increasing\ \r\n
+comment4.params=arr
+comment4.target=int\ longestFlatSequence(int[])
+comment4.text=\r\n\ this\ is\ the\ answer\ to\ question\ 3\ \r\n\ @param\ the\ array\ of\ the\ question\r\n\ @return\ the\ number\ of\ the\ largest\ flat\ sequence\ in\ the\ array\ \r\n
+comment5.params=arr\ num
+comment5.target=boolean\ checkIfThere(int[],\ int)
+comment6.params=arr\ index\ lastNum\ count
+comment6.target=int\ lengthFlat(int[],\ int,\ int[],\ int)
+comment7.params=mat
+comment7.target=int\ findMaximum(int[][])
+comment7.text=\r\n\ the\ answer\ to\ question\ 4\ \r\n\ @param\ the\ array\ to\ check\r\n\ @return\ the\ amount\ of\ the\ most\ max\ points\ by\ the\ laws\ \r\n
+comment8.params=a\ b
+comment8.target=int\ isMax(int,\ int)
+comment9.params=mat\ x\ y
+comment9.target=int\ findMaximum(int[][],\ int,\ int)
+numComments=10
